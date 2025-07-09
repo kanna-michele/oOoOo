@@ -1,7 +1,7 @@
 
 #!/usr/bin/env python3
 from time import sleep
-sleep_time = input("pleaes enter the amount of time to sleep (default: 0.0001s): ")
+sleep_time = input("please enter the amount of time to sleep [s] (default: 0.0001): ")
 sleep_time = float(sleep_time) if sleep_time else 0.0001
 while True:
     for i in range(0,256):
